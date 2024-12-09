@@ -57,7 +57,7 @@ const resetSearch = () => {
 
 <template>
   <div class="flex items-center justify-center min-h-screen">
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2">
       <div class="flex items-center justify-center group">
         <input
           v-model="search"
